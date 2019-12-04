@@ -1,0 +1,28 @@
+@import '../../../assets/common/colors.scss';
+
+.mainContent {
+    margin: 30px;
+    padding: 30px;
+    background-color: $quaternary;
+}
+
+.mainWrapper {
+    width: 100%;
+}
+
+.cityItemWrapper {
+    margin: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: $primary;
+
+    &:hover {
+        background-color: $tertiary;
+;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+} 
