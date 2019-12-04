@@ -1,0 +1,17 @@
+@import '../../../assets/common/colors.scss';
+
+.leftGrid {
+    width: 91px;
+    padding: 15px;
+    list-style: none;
+    border-right: 1px solid $primary;
+    height: 100%;
+
+    button {
+        color: $primary;
+
+        &:hover {
+            background-color: $tertiary;
+        }
+    }
+}
